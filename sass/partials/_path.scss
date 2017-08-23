@@ -1,0 +1,20 @@
+.pathRoute {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #7a706d;
+}
+.pathRoute .line {
+  width: 100%;
+  height: 1px;
+  background-color: #d6d6d6;
+}
+
+.pathRoute-address {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0;
+
+  & div {
+    margin-right: 10px;
+  }
+}

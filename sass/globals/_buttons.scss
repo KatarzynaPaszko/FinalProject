@@ -1,0 +1,18 @@
+.btn {
+ background-color: #fd926d;
+ outline: none;
+ border: none;
+ box-shadow: 0 3px 0 0 darken(#fd926d, 15%);
+ color: white;
+ margin-left: 0px;
+ padding: 5px 10px;
+
+ &:hover {
+   background-color: lighten(#fd926d, 5%);
+ }
+
+ &:active {
+   transform: translateY(3px);
+   box-shadow: none;
+ }
+}

@@ -1,0 +1,52 @@
+.slider1 {
+  display: none;
+
+  @media #{$mobile-up} {
+    display: flex;
+    height: 440px;
+    justify-content: flex-start;
+  }
+}
+
+.baner {
+  display: flex;
+  height: 440px;
+  justify-content: space-around;
+}
+
+// .baner-prev, .baner-next {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-around;
+//   font-size: 80px;
+//   color: grey;
+//   font-weight: bold;
+//   cursor: pointer;
+//   // display: none;
+// }
+
+.baner-body-img {
+  width: 90%;overflow: hidden;
+}
+
+.baner-body-img img {
+  width: 100vw;
+}
+
+.baner-prev:hover, .baner-next:hover {
+  color: #fd926d;
+}
+
+.baner-body-slide {
+  position: relative;
+}
+
+.baner-body {
+  display: none;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider .visible{
+    display: flex;
+}

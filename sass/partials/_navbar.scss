@@ -1,0 +1,64 @@
+.navbar {
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-bottom: 30px;
+  height: 80px;
+  background-color: white;
+  color: #8d8d8d;
+
+
+  @media #{$mobile-up} {
+    background-color: black;
+    color: white;
+    height: 60px;
+  }
+
+  @media #{$tablet-up} {
+    height: 30px;
+  }
+}
+
+.nav-contact {
+  background-color: white;
+  color: #8d8d8d;
+  width: 100vw;
+  text-align: center;
+
+  @media #{$mobile-up}{
+    background-color: black;
+    color: white;
+    text-align: left;
+  }
+}
+
+.nav-settings, .nav-settings-account {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+  height: 30px;
+
+  @media #{$mobile-up}{
+    height: auto;
+  }
+}
+
+.select-container {
+    overflow:hidden;
+    background:#000 url("../img/icons/select2.png") 95% center no-repat;
+    display:block;
+}
+
+.select-container select {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    width:140%;
+    border:0;
+    background:black;
+}
+
+.nav-settings-account p {
+  padding: 0 15px;
+}

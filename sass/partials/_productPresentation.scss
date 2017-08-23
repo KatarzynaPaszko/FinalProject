@@ -1,0 +1,152 @@
+.productPresentation {
+  margin-bottom: 35px;
+}
+
+.productPresentation .row {
+  margin-top: 25px;
+}
+
+.productPresentation .gallery {
+  display: flex;
+  justify-content: space-between;
+
+  @media #{$mobile-up} {
+    flex-direction: column;
+  }
+}
+
+.gallery .mainPicture {
+  max-width: 400px;
+  overflow: hidden;
+}
+
+
+.gallery .allPictures {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  max-width: 100px;
+
+  @media #{$mobile-up} {
+    flex-direction: row;
+    max-width: 400px;
+  }
+}
+
+
+
+
+.productPresentation-path strong {
+  color: #fd926d;
+}
+
+.productPresentation .line {
+  background-color: #d6d6d6;
+  height: 1px;
+  width: 100%;
+  margin: 10px 0;
+}
+.productPresentation-title {
+  font-size: 24px;
+  color: #4a4a4a;
+  padding-top: 20px;
+}
+
+.priceAndReview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceAndReview .price {
+  color: #fd926d;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+.priceAndReview .review {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.priceAndReview .review span {
+  font-size: 12px;
+  color: #8f8f8f;
+  margin-right: 10px;
+}
+
+.priceAndReview .reviewBoxes {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.priceAndReview .reviewBoxes *{
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  margin: 1px;
+}
+
+.priceAndReview .reviewBox5 {
+  background-color: #8f8f8f;
+}
+
+.productPresentation .selectOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productPresentation-description {
+  color: #8f8f8f;
+  font-size: 12px;
+}
+
+.productPresentation .colorOptions {
+  display: flex;
+  justify-content: flex-end;
+}
+.productPresentation .colorOptionsSample {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #8f8f8f;
+  margin: 1px;
+}
+
+.colorOptions .red {
+  background-color: red;
+}
+.colorOptions .pink {
+  background-color: pink;
+}
+.colorOptions .violet {
+  background-color: violet;
+}
+.colorOptions .blue {
+  background-color: blue;
+}
+.colorOptions .white {
+  background-color: white;
+}
+
+.selectButtons {
+  display: flex;
+  justify-content: flex-start;
+}
+.addOrRemove {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 10px;
+}
+
+.addOrRemove .btn, .addOrRemove span {
+  width: 25px;
+  text-align: center;
+}
+
+.addOrRemove span {
+  padding-top: 5px;
+  background-color: #feb298;
+  color: white;
+  box-shadow: 0 3px 0 0 #feb298;
+}

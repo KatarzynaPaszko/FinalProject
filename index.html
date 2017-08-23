@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple site</title>
+    <link rel="stylesheet" href="sass/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+
+  <body>
+
+    <div class="navbar">
+      <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="nav-contact">custom care: 888-23-4567</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-4 col-lg-3 col-lg-offset-6">
+              <div class="nav-settings">
+                <form action="...">
+                    <div class="select-container">
+                      	<select name="currency option">
+                      		<option>&#36; US</option>
+                      		<option>&#163; GB</option>
+                      		<option>&euro; EU</option>
+                          <option>zł PL</option>
+                      	</select>
+                    </div>
+                </form>
+                <div class="nav-settings-account">
+                  <div class="img">
+                    <img src="img/icons/account.png" alt="log in icon">
+                  </div>
+                  <p>MY ACCOUNT</p>
+                </div>
+                <div class="search">
+                  <img src="img/icons/search.png" alt="search icon">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navigation-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
+            <a class="logo" href="index.html">
+              <img class="logo_img" src="img/logo.png" alt="Lookshop logo">
+            </a>
+          </div>
+          <div class=" col-lg-7 col-lg-offset-1">
+            <div class="product-choose">
+              <ul>
+                <li>
+                  <div class="dropdown">
+                    <button class="dropbtn">new &#9662;</button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown">
+                    <button class="dropbtn">designers &#9662;</button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown">
+                    <button class="dropbtn">women &#9662;</button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown">
+                    <button class="dropbtn">men &#9662;</button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown">
+                    <button class="dropbtn">clearance &#9662;</button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <div class="chosen">
+              <div class="yourCart">
+                <span>Your cart</span>
+                <span>&#9662;</span>
+              </div>
+              <div class="chosen-items">
+                <div class="img">
+                  <img  class="icon-shop" src="img/icons/bag.png" alt="">
+                </div>
+                <div class="cart__inform">
+                    <span class="cart__items">0 ITEMS</span>
+                    <span> &#9474; </span>
+                    <span class="cart__sum">$ 0</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider1">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+            <div class="slider">
+              <div class="baner">
+
+                  <div class="baner-prev"><p>&lt;</p></div>
+                  <div class="baner-body-slide slider">
+
+                        <div class="baner-body visible">
+                          <div class="baner-body-img">
+                            <img src="img/slider/slider1.png" alt="slider">
+                          </div>
+                          <!-- <div class="baner-body-cnt">
+                            <a href="www.coderslab.pl" class="btn">Zobacz więcej</a>
+                          </div> -->
+                        </div>
+
+                        <div class="baner-body">
+                          <div class="baner-body-img">
+                            <img src="img/slider/slider2.png" alt="slider">
+                          </div>
+                          <!-- <div class="baner-body-cnt">
+                            <a href="www.coderslab.pl" class="btn">Zobacz więcej</a>
+                          </div> -->
+                        </div>
+
+                  </div>
+                  <div class="baner-next"><p>&gt;</p></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="socialMedia">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-7 col-lg-6">
+            <div class="newsletter">
+              <h4>Stay updated</h4>
+              <form id="getSubscription">
+                <input class="newsletter-input" type="email" placeholder="Your email adress" id="email">
+                <button class="newsletter-btn-submit" type="submit" class="button_1">+</button>
+            </form>
+            <div class="alert">You are subscribed to our mailing list.</div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-5  col-lg-3 col-lg-offset-3">
+            <div class="fast-contacts-social">
+              <span class="fast-contacts-social-title">Find us here</span>
+              <a class="link" href="#"><img src="img/icons/facebook-big.png" alt="facebook"></a>
+              <a class="link" href="#"><img src="img/icons/twitter-big.png" alt="twitter"></a>
+              <a class="link" href="#"><img src="img/icons/pa-big.png" alt="pintrest"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="advertisments">
+      <div class="container">
+        <div class="row no-gutter">
+          <div class="advertisments-ads">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="first">
+                <img src="img/advertisments/promo-img1.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="second">
+                <img src="img/advertisments/promo-img2.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+              <div class="third">
+                <img src="img/advertisments/promo-img3.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+              <div class="ffourth">
+                <img src="img/advertisments/promo-img4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navigation-middle">
+      <div class="container">
+        <div class="row row-bottom-margin">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+            <div class="categories">
+              <ul>
+                <li class="active"> WHAT'S HOT?</li>
+                <li>DESIGNERS</li>
+                <li>FEATURED</li>
+                <li>LATEST</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-lg-offset-4">
+            <div class="scroll">
+              <div class="prev active">&#8810;</div>
+              <div class="next">&#8811;</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel">
+      <div class="carouselPictures">
+
+        <div class="offer">
+          <img src="img/offers/card-pr1.jpg" alt="clothes picture">
+          <p>MIMOSA LACE DRESS</p>
+          <span>&#36;76.95</span>
+          <button class="btn">ADD TO CART +</button>
+        </div>
+
+        <div class="offer">
+          <img src="img/offers/card-pr2.jpg" alt="clothes picture">
+          <p>MIMOSA LACE DRESS</p>
+          <span>&#36;76.95</span>
+          <button class="btn">ADD TO CART +</button>
+        </div>
+
+        <div class="offer">
+          <img src="img/offers/card-pr3.jpg" alt="clothes picture">
+          <p>MIMOSA LACE DRESS</p>
+          <span>&#36;76.95</span>
+          <button class="btn">ADD TO CART +</button>
+        </div>
+
+        <div class="offer">
+          <img src="img/offers/card-pr4.jpg" alt="clothes picture">
+          <p>MIMOSA LACE DRESS</p>
+          <span>&#36;76.95</span>
+          <button class="btn">ADD TO CART +</button>
+        </div>
+
+        <div class="offer">
+          <img src="img/offers/card-pr5.jpg" alt="clothes picture">
+          <p>MIMOSA LACE DRESS</p>
+          <span>&#36;76.95</span>
+          <button class="btn">ADD TO CART +</button>
+        </div>
+
+        <div class="offer">
+          <img src="img/offers/card-pr6.jpg" alt="clothes picture">
+          <p>MIMOSA LACE DRESS</p>
+          <span>&#36;76.95</span>
+          <button class="btn">ADD TO CART +</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="clearance">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="clearanceLogo">
+              <div class="line"></div>
+              <img src="img/special/clearance.png" alt="clearance">
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="clearanceOffer">
+
+              <div class="clearanceOfferSample">
+                <img src="img/offers/card-pr8.jpg" alt="clothes picture">
+                <p>MIMOSA LACE DRESS</p>
+                <span>&#36;76.95</span>
+                <button class= "addToCart">ADD TO CART +</button>
+              </div>
+
+              <div class="clearanceOfferSample">
+                <img src="img/offers/card-pr7.jpg" alt="clothes picture">
+                <p>MIMOSA LACE DRESS</p>
+                <span>&#36;76.95</span>
+                <button class= "addToCart">ADD TO CART +</button>
+              </div>
+
+              <div class="clearanceOfferSample">
+                <img src="img/offers/card-pr6.jpg" alt="clothes picture">
+                <p>MIMOSA LACE DRESS</p>
+                <span>&#36;76.95</span>
+                <button class= "addToCart">ADD TO CART +</button>
+              </div>
+
+              <div class="clearanceOfferSample">
+                <img src="img/offers/card-pr5.jpg" alt="clothes picture">
+                <p>MIMOSA LACE DRESS</p>
+                <span>&#36;76.95</span>
+                <button class= "addToCart">ADD TO CART +</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="brands">
+        <div class="brandsTitle">
+          <div class="line"></div>
+          <span>favourite brands</span>
+          <div class="line"></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="brandsLogo">
+                <ul>
+                  <li><img src="img/loga/loga1.png" alt="logo"></li>
+                  <li><img src="img/loga/loga2.png" alt="logo"></li>
+                  <li><img src="img/loga/loga3.png" alt="logo"></li>
+                  <li><img src="img/loga/loga4.png" alt="logo"></li>
+                  <li><img src="img/loga/loga5.png" alt="logo"></li>
+                  <li><img src="img/loga/loga6.png" alt="logo"></li>
+                  <li><img src="img/loga/loga7.png" alt="logo"></li>
+                  <li><img src="img/loga/loga8.png" alt="logo"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="brandsTitle">
+          <div class="line"></div>
+        </div>
+    </div>
+
+    <div class="aboutUs">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h3>About LookShop</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="creditCards cards">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="creditCards">
+              <span>We accept</span>
+              <img src="img/icons/cards.png" alt="Credit Cards">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navigation-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="navBottom">
+              <div class="column">
+                <h4>Customer Service</h4>
+                <ul>
+                  <li>Contact</li>
+                  <li>FAQ</li>
+                  <li>Terms of payment</li>
+                  <li>Terms of sale</li>
+                  <li>Delivery terms and conditions</li>
+                  <li>Returns and Refunds</li>
+                </ul>
+              </div>
+              <div class="column">
+                <h4>Information</h4>
+                <ul>
+                  <li>Affiliate</li>
+                  <li>Cookies</li>
+                  <li>How to Shop</li>
+                  <li>About Nelly</li>
+                  <li>Investor relations</li>
+                </ul>
+              </div>
+              <div class="column">
+                <h4>Campaigns</h4>
+                <ul>
+                  <li>Evening dresses</li>
+                  <li>Makeup</li>
+                  <li>Fashion forward</li>
+                  <li>Special Occasion Dresses</li>
+                  <li>Training clothes</li>
+                </ul>
+              </div>
+              <div class="column">
+                <h4>Stores</h4>
+                <ul>
+                  <li>Paris</li>
+                  <li>New York</li>
+                  <li>London</li>
+                  <li>Madrid</li>
+                  <li>Tokio</li>
+                </ul>
+              </div>
+              <div class="column">
+                <h4>Social</h4>
+                <div class="socialIcons">
+                  <div class="socialIconsRows">
+                    <img src="img/icons/social1.png" alt="icon">
+                    <img src="img/icons/social2.png" alt="icon">
+                    <img src="img/icons/social3.png" alt="icon">
+                  </div>
+                  <div class="socialIconsRows">
+                    <img src="img/icons/social4.png" alt="icon">
+                    <img src="img/icons/social5.png" alt="icon">
+                    <img src="img/icons/social6.png" alt="icon">
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="secure">
+                  <img src="img/special/secured.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
+            <div class="footerLinks">
+              <ul>
+                <li>Privacy &amp; Cookies</li>
+                <li>|</li>
+                <li>Terms &amp; Conditions</li>
+                <li>|</li>
+                <li>Accessibility</li>
+                <li>|</li>
+                <li>Store Directory</li>
+                <li>|</li>
+                <li>About Us</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6">
+            <div class="footerRights">
+              <p>&copy; LookShop.com</p>
+              <p>All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/out.js"></script>
+  </body>
+</html>

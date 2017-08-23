@@ -1,0 +1,23 @@
+.advertisments {
+  margin-top: 40px;
+}
+.advertisments-ads img {
+  width: 100%;
+  border: 1px solid white;
+}
+
+.advertisments .col-md-12,
+.advertisments .col-lg-12 {
+  padding: 0;
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}

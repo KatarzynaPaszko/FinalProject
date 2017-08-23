@@ -1,0 +1,32 @@
+.navigation-bottom {
+  background-color: #ededed;
+}
+
+.navBottom {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.navBottom ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navBottom h4 {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.socialIconsRows img {
+  margin: 5px;
+}
+
+.secure {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}

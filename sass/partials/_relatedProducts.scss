@@ -1,0 +1,23 @@
+.relatedProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relatedProducts span {
+  text-transform: uppercase;
+  width: 400px;
+  font-size: 15px;
+  color: #414141;
+  margin: 20px;
+  font-weight: bold;
+}
+.relatedProducts .line {
+    width: 100%;
+    height: 1px;
+    background-color: #d6d6d6;
+}
+
+.relatedProducts-cnt {
+  margin-bottom: 50px;
+}

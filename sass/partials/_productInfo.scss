@@ -1,0 +1,50 @@
+.productInfo {
+  margin: 40px 0; 
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.8s;
+    text-transform: uppercase;
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    &.active, button.accordion:hover {
+        background-color: #b3b3b3;
+    }
+}
+
+button {
+  &.accordion1 {
+    background-color: #ffd5c6;
+  }
+  &.accordion2 {
+    background-color: #ffcab8;
+  }
+  &.accordion3 {
+    background-color: #ffae92;
+  }
+  &.accordion4 {
+    background-color: #ffa687;
+  }
+  &.accordion5 {
+    background-color: #fd926d;
+  }
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    transition: display 1s;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
